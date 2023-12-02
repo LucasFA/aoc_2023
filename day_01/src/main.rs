@@ -120,5 +120,12 @@ zoneight234
             let result = part2(input);
             assert_eq!(result, 24)
         }
+
+        #[test]
+        fn edge_cases_man() {
+            let input = "one234fiveight";
+            let result = part2(input);
+            assert_eq!(result, 18)
+        }
     }
 }
